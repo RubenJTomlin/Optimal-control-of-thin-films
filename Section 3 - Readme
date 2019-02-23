@@ -8,7 +8,7 @@ Included are an executable (.exe) file, a data-file "data_mgd2KSE", and a matlab
 
 The spatial (M,N) and temporal (dt) discretisations may be modified on the first line of the data-file, with the final time (Tfinal) on the second. The inclination parameter kappa, and the control parameters gamma and s are on the third line. The code allows the user to step in values of the streamwise length L1, "sizeLvec" determines the number of simulations at different values of L while maintaining the aspect ratio, starting at the value "L_1" with steps of size "stepL". The final line defines the aspect ratio of the domain, i.e. we write L1 = L and L2 = L^a. The choice of a=1 is thus a square domain. 
 
-After completion, the code prints 7 files:
+After completion, the code prints 7 files (examples are included):
 - Fourier modes and corresponding spatial discretisations ("x_k1_..." and "y_k2_...")
 - L2-norm and Linfinity-norm
 - "profiles_..." contains a concatenation of the initial condition, final state, and magnitude of the Fourier coefficients at the final time.
