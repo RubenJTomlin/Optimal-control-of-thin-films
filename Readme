@@ -1,0 +1,10 @@
+Solves the 2DKSE (9) with the optimal transverse control and initial condition (28) as discussed in Section 3 (Optimal transverse control for hanging films).
+
+We use a 4th order BDF method in time, with spectral methods in space. The optimal control is computed using the explicit formula given in Section 3.
+
+If kappa>=0, there are no linearly unstable transverse modes, and no controls are applied (the system remains bounded without controls).
+
+Included are an executable (.exe) file, a data-file, and a matlab script which analyses the output.
+
+
+
