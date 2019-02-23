@@ -12,5 +12,5 @@ After completion, the code prints 7 files:
 - Fourier modes and corresponding spatial discretisations ("x_k1_..." and "y_k2_...")
 - L2-norm and Linfinity-norm
 - "profiles_..." contains a concatenation of the initial condition, final state, and magnitude of the Fourier coefficients at the final time.
-- "unstable_..." contains the real and imaginary parts of the linearly unstable modes with positive wavenumbers, with the components of the zero-mode printed in the the first two columns. Thus, if kappa>=0, there will be just two columns, and if the (0,+/-1), (0,+/-2),..., (0,+/-7) modes are linearly unstable, then there will be 2+2*7 columns.
+- "unstable_..." contains the real and imaginary parts of the linearly unstable modes with positive wavenumbers, with the components of the zero-mode printed in the the first two columns (as a numerical check). Thus, if kappa>=0, there will be just two columns, and if the (0,+/-1), (0,+/-2),..., (0,+/-7) modes are linearly unstable, then there will be 2+2*7 columns.
 - "control_..." contains the optimal controls with in direct correspondence with the state in "unstable_...".
