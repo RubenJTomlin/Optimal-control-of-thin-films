@@ -4,7 +4,7 @@ We use a 4th order BDF method in time, with spectral methods in space. The optim
 
 If kappa>=0, there are no linearly unstable transverse modes, and no controls are applied (the system remains bounded without controls).
 
-Included are an executable (.exe) file, a data-file, and a matlab script which analyses the output.
+Included are an executable (.exe) file, a data-file "data_mgd2KSE", and a matlab script which analyses the output.
 
-
+The spatial (M,N) and temporal (dt) discretisations may be modified on the first line of the data-file, with the final time (Tfinal) on the second. The inclination parameter kappa, and the control parameters gamma and s are on the third line. The code allows the user to step in values of the streamwise length L1, "sizeLvec" determines the number of simulations at different values of L while maintaining the aspect ratio, starting at the value "L_1" with steps of size "stepL". The final line defines the aspect ratio of the domain, i.e. we write L1 = L and L2 = L^a. 
 
